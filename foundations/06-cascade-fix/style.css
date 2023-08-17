@@ -8,16 +8,24 @@ body {
   font-weight: 800;
 }
 
+
+
+/* switched .small-para and .para */
+.para {
+  font-size: 22px;
+}
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
 
-.confirm {
+
+/* edited .confirm to .button.confirm
+
+other solutions:
+  - can place .confirm under .button */
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +37,14 @@ body {
   font-size: 20px;
 }
 
-.child {
+
+
+/* edited .child into .text.child
+
+other solutions:
+  - can edit into div.text.child
+  - can edit .child to div.child and place under div.text */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
